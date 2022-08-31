@@ -1,0 +1,172 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	font-size: 18px;
+	display: inline-block;
+}
+h1{
+	font-size: 50px;
+}
+h2{
+	font-size: 36px;
+}
+p{
+	line-height: 1.7;
+	font-size: 18px;
+	color: aliceblue;
+}
+ul{
+	list-style: none;
+}
+.container {
+	padding: 0 6%;
+	background:aquamarine;
+}
+.btn{
+	background: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+.btn:hover{
+	background: transparent;
+	color: rgb(0, 0, 0);
+}
+.mb-15{
+	margin-bottom: 15px;
+}
+.s1{
+	color: black;
+}
+.heading{
+	text-align: center;
+	margin-bottom: 40px;
+	color: brown;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu .logo{
+	width: 120px;
+	display: flex;
+	padding-left: 20px;
+}
+.menu .logo img{
+	width: 100%;
+}
+.menu .nav ul{
+    display: flex;
+    gap: 30px;
+}
+.menu .nav ul li a{
+	font-size: 18px;
+}
+.menu .nav ul li a:hover{
+    font-weight: 500;
+}
+.menu .menu-item{
+	position: relative;
+}
+.menu .sub-menu{
+    position: absolute;
+    top: 40px;
+    left: o;
+    width: 200px;
+	background: white;
+	padding: 20px;
+	border: 1px solid black;
+	transition: all .3s linear;
+    opacity: 0;
+	visibility: hidden;
+}
+.menu .menu-item:hover .sub-menu{
+	opacity: 1;
+	visibility: visible;
+}
+.menu .sub-menu ul{
+	flex-direction: column;
+}
+.login{
+	background: coral;
+	padding: 10px 10px;
+	color: white;
+	font-size: 15px;
+	border-radius: 35px;
+}
+.banner_container{
+	background: rgb(47, 132, 172);
+}
+.banner_container .banner{
+	padding: 30px o;
+	display: flex;
+	gap: 30px;
+	align-items: center;
+	justify-content: space-between;
+}
+.banner_container .banner h2{
+	color: aliceblue;
+}
+.banner_container .banner h1{
+	line-height: 1.2;
+}
+.banner_container .banner h1 span{
+	background: blanchedalmond ;
+	color: black;
+	padding: 3px 5px;
+	border-radius: 20px;
+	font-size: 25px;
+}
+.banner_container .banner .gl{
+    margin:  20px;
+	padding:0 3%;
+	border: solid white 3px;
+}
+.service_area{
+	padding: 100px;
+}
+.services{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 18px;
+}
+.services .service{
+	background: rgb(0, 0, 0);
+	padding: 23px 13px;
+	border-radius: 30px 30px 30px 30px;
+	text-align: center;
+}
+.services .service h3{
+	color: aliceblue;
+}
+.services .service span{
+	color: white;
+	background: rgb(0, 0, 0);
+}
+.services .service a{
+	background: rgb(7, 49, 233);
+	padding: 13px 20px;
+	border-radius: 50%;
+	font-size: 20px;
+	font-weight: 500;
+	color: aliceblue;
+	margin-top: 20px;
+	transition: all .5s ease;
+}
+..services .service a:hover i{
+	transform: rotate(120deg);
+}
+.categories{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+.categories .category{
+	text-align: center;
+	padding: 20px;
+	border-radius: 20px;
+}
